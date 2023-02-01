@@ -1,24 +1,31 @@
+:root {
+    --active-bg: #4ec4e2;
+}
+
+
 body {
-    background-color: lightgreen;
+    background-color: #044e64;
+    
 }
 
 #griglia {
-    width: 500px;
-    height: 500px;
+    width: 1000px;
+    height: 1000px;
     display: flex;
     flex-wrap: wrap;
-    border: 2px, solid, black;
+
 
 }
 
-#griglia, .square {
-    border: 2px, solid, black;
-}
 
 .square {
-    width: calc(100% / 5);
-    height: calc(100% / 5);
+    width: calc(100% / 10);
+    height: calc(100% / 10);
     cursor: crosshair;
+    border: 1px solid black;
+   
+
+
 }
 
 .square.active {
