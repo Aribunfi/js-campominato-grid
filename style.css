@@ -8,6 +8,10 @@ body {
     
 }
 
+h1 {
+    color: white;
+}
+
 #griglia {
     width: 1000px;
     height: 1000px;
